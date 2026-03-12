@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63756006038",
+    "project_id": "jobapp-8d493",
+    "storage_bucket": "jobapp-8d493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63756006038:android:3e80fe8d7a80250c7448b7",
+        "android_client_info": {
+          "package_name": "com.example.connectapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChnQpXou6nwmrNJ1y5qrP1aJy8xtdoJ3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
