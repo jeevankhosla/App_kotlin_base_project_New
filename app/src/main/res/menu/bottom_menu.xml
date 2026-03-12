@@ -3,22 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/home"
-        android:enabled="true"
-        android:title="Home" />
-    <item
-        android:id="@+id/favorites"
-        android:title="Favorites" />
-    <item
-        android:id="@+id/jobs"
-        android:title="Jobs" />
-    <item
-        android:id="@+id/notifications"
-        android:title="Notifications" />
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/manu_home_selector"
+        android:title=""
 
+        />
     <item
-        android:id="@+id/profile"
-        android:title="Profile" />
+        android:id="@+id/advertisementFragment"
+        android:icon="@drawable/manu_home_selector"
+        android:title=""
+        />
+    <item
+        android:id="@+id/requestFragment"
+        android:icon="@drawable/manu_home_selector"
+        android:title="" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/manu_home_selector"
+        android:title=""
+        />
+    <item
+        android:id="@+id/lookingForProfileFragment"
+        android:icon="@drawable/manu_home_selector"
+        android:title="" />
 
 
 </menu>

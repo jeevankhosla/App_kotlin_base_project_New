@@ -6,6 +6,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import com.example.connectapp.R
 import com.example.connectapp.databinding.ActivityMainBinding
 import com.example.connectapp.ui.base.BaseActivity
@@ -35,6 +38,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     }
 
     private fun init(){
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+
+        val navController = navHostFragment.navController
+
+        binding.bottomNavigation.setupWithNavController(navController)
+
 
     }
 }
