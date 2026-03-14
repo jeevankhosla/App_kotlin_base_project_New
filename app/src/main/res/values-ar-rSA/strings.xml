@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">تطبيق كونكت</string>
+
+        <string name="session_expired">انتهت الجلسة</string>
+        <string name="alert">تنبيه</string>
+        <string name="post_detail">تفاصيل المنشور</string>
+        <string name="please_try_again">يرجى المحاولة مرة أخرى</string>
+        <string name="plz_wait">يرجى الانتظار</string>
+        <string name="error_found">تم العثور على خطأ</string>
+
+        <string name="forgot_password"><u>هل نسيت كلمة المرور؟</u></string>
+        <string name="or_login"><u>أو تسجيل الدخول باستخدام</u></string>
+
+        <string name="hello_blank_fragment">جزء الباحث عن المنزل</string>
+        <string name="fav_fragment">جزء المفضلة</string>
+
+        <string name="title_activity_job_deatils">نشاط تفاصيل الوظيفة</string>
+
+        <!-- Strings used for fragments for navigation -->
+        <string name="first_fragment_label">الجزء الأول</string>
+        <string name="second_fragment_label">الجزء الثاني</string>
+        <string name="next">التالي</string>
+        <string name="previous">السابق</string>
+
+        <string name="title_activity_main2">النشاط الرئيسي 2</string>
+        <string name="title_home">الرئيسية</string>
+        <string name="title_dashboard">لوحة التحكم</string>
+        <string name="title_notifications">الإشعارات</string>
+
+        <string name="tv1">سيتم إنشاء رمز QR لك ويمكنك قبول المدفوعات من العملاء بسهولة</string>
+
+        <string name="third_step">أرسل ملاحظات صوتية وملاحظات كتابية واحصل على ردود إيجابية من العملاء</string>
+
+        <string name="otp_text">يرجى إدخال رمز التحقق المكون من 6 أرقام المرسل إلى رقم هاتفك +91XXXXXX7890 للتحقق.</string>
+
+        <string name="sign_up">إنشاء حساب</string>
+        <string name="username">اسم المستخدم</string>
+        <string name="password">كلمة المرور</string>
+        <string name="login">تسجيل الدخول</string>
+
+
+</resources>

@@ -12,6 +12,7 @@ import com.example.connectapp.R
 import com.example.connectapp.databinding.ActivityWelcomeBinding
 import com.example.connectapp.ui.base.BaseActivity
 import com.example.connectapp.ui.base.BaseViewModel
+import com.example.connectapp.utils.ImageUtils.setAppLanguage
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -31,6 +32,8 @@ class WelcomeActivity : BaseActivity<ActivityWelcomeBinding>() {
     }
 
     override fun onCreateView() {
+
+        setAppLanguage("ar")
 
         lifecycleScope.launch {
             lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {

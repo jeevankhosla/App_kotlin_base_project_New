@@ -4,7 +4,9 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat.startActivity
+import androidx.core.os.LocaleListCompat
 import androidx.databinding.BindingAdapter
 import androidx.navigation.NavController
 import androidx.navigation.NavOptions
@@ -38,6 +40,11 @@ object ImageUtils {
             e.printStackTrace()
             null
         }
+    }
+
+    fun setAppLanguage(languageCode: String) {
+        val appLocale = LocaleListCompat.forLanguageTags(languageCode)
+        AppCompatDelegate.setApplicationLocales(appLocale)
     }
 
 }

@@ -13,3 +13,69 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+.gradle-cache/
+
+
+# Android Studio files
+.idea/
+*.iws
+*.ipr
+
+# OS generated files
+Thumbs.db
+
+# Log files
+*.log
+
+# Kotlin
+*.kotlin_module
+
+# Navigation Safe Args
+.navigation/
+
+# Google Services
+google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+
+# Captures
+captures/
+
+# NDK
+obj/
